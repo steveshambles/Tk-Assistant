@@ -3,3 +3,6 @@ A Python GUI containing 45 code examples of Tkinter widgets and more that can be
 
 
 ![Alt text](https://stevepython.files.wordpress.com/2019/12/python-tkinter-assistant-gui-help-ss1.png "Optional title")
+
+For the moment this is Windows only.
+I may need help getting this to run properly on Linux.
