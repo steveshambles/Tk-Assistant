@@ -7,4 +7,7 @@ A Python GUI containing 45 code examples of Tkinter widgets and more that can be
 For the moment this is Windows only.
 I may need help getting this to run properly on Linux.
 
-Homepage: https://stevepython.wordpress.com/2019/12/08/tkinter-assistant-v2
+The code leaves a lot to be desired, I am still learning.
+
+For more info:
+https://stevepython.wordpress.com/2019/12/08/tkinter-assistant-v2
