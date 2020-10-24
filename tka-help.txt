@@ -28,7 +28,7 @@ You can also send me a message, or visit my Python blogs,
 which are chock full of hundreds of bits of useful source 
 code and articles for beginners.
 
-Let me know if you found Tk Assistant useful, or if you have\n 
+Let me know if you found Tk Assistant useful, or if you have
 constructive criticisms or ideas.
 
 If you find TK Assistant useful and would like me to keep working
