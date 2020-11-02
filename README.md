@@ -12,6 +12,7 @@ For more info:
 https://pyshambles.blogspot.com/2020/11/tk-assistant-v35-help-guide.html
 
 -----Update log-----
+
 V3.05: Final tests and lint, Added GitHub link, executable tests.
 
 V3.04:Started work on widget imgs will take time.
