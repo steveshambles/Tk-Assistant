@@ -1,7 +1,8 @@
 """Status bar.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+   """
 from tkinter import BOTTOM, Label, SUNKEN, Tk, W, X
 
 root = Tk()

@@ -1,11 +1,13 @@
 """Scrolled text box.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   https://pyshambles.blogspot.com/
+   """
 from tkinter import Button, END, INSERT, LabelFrame, S, scrolledtext, Tk
 
 root = Tk()
-root.title('Scolled Text Box example')
+root.title('Tk Assistant Scolled Text Box example')
+root.resizable(False,False)
 
 def clear_txt():
     """Clear text from box."""

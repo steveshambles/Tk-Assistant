@@ -1,7 +1,8 @@
 """Combobox.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   https://pyshambles.blogspot.com/
+   """
 from tkinter import Button, E, LabelFrame, messagebox, Tk, W
 from tkinter.ttk import Combobox
 
@@ -11,6 +12,10 @@ root.title('Combobox example')
 def clkd_btn():
     """Display selection."""
     sel_item = combo_one.get()
+
+    if sel_item == 'Select an item':
+        return
+
     messagebox.showinfo('User choice', 'You Selected:\n\n'+str(sel_item))
 
 main_frame = LabelFrame(root)

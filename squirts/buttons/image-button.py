@@ -1,7 +1,8 @@
 """Image button
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import Button, LabelFrame, PhotoImage, Tk
 
 root = Tk()
@@ -11,7 +12,7 @@ main_frame = LabelFrame(root)
 main_frame.grid()
 
 def bbc_btn():
-    """Image Button clicked."""
+    """Image Button was clicked."""
     print('Button clicked')
 
 # The image is required in current dir that this script is run from.

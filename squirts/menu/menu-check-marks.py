@@ -1,7 +1,8 @@
 """Menu check-mark.
    Stand-alone example by Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import IntVar, Menu, Tk
 
 root = Tk()

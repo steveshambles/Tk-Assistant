@@ -1,12 +1,14 @@
 """Spinbox.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   https://pyshambles.blogspot.com/
+   """
 from tkinter import Button, IntVar, LabelFrame, messagebox, Spinbox
 from tkinter import TclError, Tk
 
 root = Tk()
 root.title('Spinbox example')
+root.resizable(False,False)
 
 def spbox_val():
     """Display spinbox current value."""

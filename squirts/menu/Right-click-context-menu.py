@@ -1,7 +1,8 @@
 """Right click context menu.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import Frame, Menu, Tk
 
 root = Tk()

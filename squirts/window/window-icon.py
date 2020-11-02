@@ -1,12 +1,13 @@
 """Window icon.
-   Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+Stand-alone example from Tk Assistant.
+stevepython.wordpress.com
+pyshambles.blogspot.com
+"""
 from tkinter import Tk
 
-# Create a gui window.
+# Create window.
 root = Tk()
-root.title('Change icon example')
+root.title('Changed icon example')
 
 # Ensure the .ico file is in same dir
 # as this source code is run from.

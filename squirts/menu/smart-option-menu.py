@@ -1,12 +1,12 @@
 """Smart Option Menu
    Stand-alone example from Tk Assistant.
    stevepython.wordpress.com
+   pyshambles.blogspot.com
 
 requirement:
 pip3 install tk_tools
 """
 from tkinter import Label, Tk
-
 import tk_tools
 
 root = Tk()

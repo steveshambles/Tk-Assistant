@@ -1,7 +1,8 @@
 """Menu button
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import IntVar, Menu, Menubutton, Tk
 
 root = Tk()

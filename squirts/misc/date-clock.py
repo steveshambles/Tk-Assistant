@@ -3,6 +3,7 @@ Stand-alone example from Tk Assistant.
 
 By Steve Shambles
 stevepython..wordpress.com
+pyshambles.blogspot.com
 """
 from threading import Timer
 import time

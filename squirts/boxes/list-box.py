@@ -1,33 +1,35 @@
 """Listbox.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   https://pyshambles.blogspot.com/
+   """
 from tkinter import BOTTOM, LabelFrame, Listbox, messagebox
 from tkinter import RIGHT, Scrollbar, Tk, X, Y
 
 root = Tk()
-root.title('Listbox by WAC')
+root.title('Listbox by TK Assistant')
+root.resizable(False, False)
 
 def double_clicked(event):
     """Double clicked mouse on listbox item. Report which item."""
     ev_w = event.widget
     idx = int(ev_w.curselection()[0])
     value = ev_w.get(idx)
-    messagebox.showinfo('About', 'Listbox double clicked on: '+str(value))
+    messagebox.showinfo('About', 'Listbox double clicked on:\n'+str(value))
 
 def right_clicked(event):
     """Right clicked mouse on item."""
     ev_w = event.widget
     idx = int(ev_w.curselection()[0])
     value = ev_w.get(idx)
-    messagebox.showinfo('About', 'Listbox right clicked on: '+str(value))
+    messagebox.showinfo('About', 'Listbox right clicked on:\n'+str(value))
 
 def mid_clicked(event):
     """Middle clicked mouse on item."""
     ev_w = event.widget
     idx = int(ev_w.curselection()[0])
     value = ev_w.get(idx)
-    messagebox.showinfo('About', 'Listbox middle clicked on: '+str(value))
+    messagebox.showinfo('About', 'Listbox middle clicked on:\n'+str(value))
 
 main_frame = LabelFrame(root)
 main_frame.grid(padx=8, pady=8)
@@ -69,5 +71,7 @@ lst_bx.insert('end', 'Always forgive your enemies; nothing annoys them so'
 
 lst_bx.insert('end', 'If you always tell the truth, you dont have to'
                      'remember anything. ― Mark Twain')
+
+messagebox.showinfo('Listbox demo', 'Double click, right click\nor middle click a selection.')
 
 root.mainloop()

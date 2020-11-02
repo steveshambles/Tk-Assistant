@@ -1,7 +1,8 @@
 """User input dialog.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import simpledialog, Tk
 
 root = Tk()

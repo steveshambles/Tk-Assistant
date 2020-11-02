@@ -1,10 +1,8 @@
 """Centre window.
-   Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com
-   source:https://bbs.archlinux.org/viewtopic.php?id=149559
-   Note: may not work properly on Linux.
-   """
-
+Stand-alone example from Tk Assistant.
+stevepython.wordpress.com
+pyshambles.blogspot.com
+"""
 from tkinter import Tk
 from tkinter.ttk import Label
 
@@ -19,8 +17,7 @@ scrn_wdth = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
 scrn_hght = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
 root.geometry("+%d+%d" % (scrn_wdth, scrn_hght))
 
-# This seems to draw the window frame immediately, so only call deiconify()
-# after setting correct window position.
+# This draws the window frame immediately,
 root.deiconify()
 
 root.mainloop()

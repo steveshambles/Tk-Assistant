@@ -1,7 +1,8 @@
 """Color picker dialog.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import Tk
 from tkinter.colorchooser import askcolor
 

@@ -1,7 +1,8 @@
 """Radio buttons.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import IntVar, LabelFrame, messagebox, Radiobutton, Tk, W
 
 root = Tk()

@@ -2,18 +2,18 @@
 Tooltips.
 Stand-alone code from Tk Assistant..
 stevepython.wordpress.com
+pyshambles.blogspot.com
 
 requires:
 ttips.py in same directory this script is run from.
 """
 from tkinter import Button, Label, Tk
-
 import ttips
 
 root = Tk()
 root.title('Tooltips examples')
 
-#create some example buttons
+# Create some example buttons.
 btn1 = Button(root, text='Button 1')
 btn1.grid(sticky='WE')
 btn2 = Button(root, text='Button 2')
@@ -38,7 +38,7 @@ txt_lab.grid()
 
 # Optional background\foreground color, or defaults to yellow-black.
 
-# Optional fontname, default times, fontsize, default 8,
+# Optional fontname, default, times. fontsize, default 8,
 
 # showtime, default is 2 (seconds)
 
@@ -61,7 +61,7 @@ ttips.Create(btn5, 'This will display for 8 seconds,\n'
 
 ttips.Create(btn6, 'All options used. This will display for 12 seconds.\n'
                    'Using comic sans font 24.\n'
-                   'Orange background, black text.', bgcol='orange',  \
+                   'Orange background, black text.', bgcol='orange',
                    fontname='Comic Sans MS', fontsize=24, showtime=12)
 
 # And on other widgets, like a label for example

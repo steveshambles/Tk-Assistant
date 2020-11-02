@@ -1,7 +1,9 @@
 """Lambda callback.
-   Stand-alone code from Tk Assistant.
-   stevepython.wordpress.com"""
+Stand-alone code from Tk Assistant.
 
+stevepython.wordpress.com
+pyshambles.blogspot.com
+"""
 from tkinter import Button, LabelFrame, Tk
 
 root = Tk()

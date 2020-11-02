@@ -1,7 +1,8 @@
 """Paned Windows.
-   Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+Stand-alone example from Tk Assistant.
+stevepython.wordpress.com
+pyshambles.blogspot.com
+"""
 from tkinter import BOTH, Label, PanedWindow, Tk, VERTICAL
 
 root = Tk()

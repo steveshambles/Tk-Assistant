@@ -1,16 +1,16 @@
 """Date picker dialog.
    Stand-alone example from Tk Assistant.
    stevepython.wordpress.com
+   pyshambles.blogspot.com
 
 requirements:
 pip3 install tkcalendar
 """
 from tkinter import Button, Tk, Toplevel
-
 from tkcalendar import Calendar
 
 root = Tk()
-root.withdraw()# Hide naff extra window.
+root.withdraw() # Hide naff extra window.
 root.title('Please choose a date')
 
 def pick_date_dialog():

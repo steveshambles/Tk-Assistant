@@ -1,21 +1,22 @@
 """Simple button.
    Stand-alone example from Tk Assistant.
-   stevepython.wordpress.com"""
-
+   stevepython.wordpress.com
+   pyshambles.blogspot.com
+"""
 from tkinter import Button, LabelFrame, Tk
 
 root = Tk()
-root.title('Simple button')
+root.title('Button')
 
 def clkd_btn():
     """Button was clicked."""
-    print('clicked')
+    print('Button was clicked')
 
-main_frame = LabelFrame(root, text='Button')
-main_frame.grid(padx=20, pady=20)
+main_frame = LabelFrame(root, text='Simple button example')
+main_frame.grid(padx=10, pady=10)
 
-btn_one = Button(main_frame, bg='skyblue', text='Click Me',
+btn_one = Button(main_frame, bg='indianred', text='Click Me',
                  command=clkd_btn)
-btn_one.grid(pady=15, padx=15)
+btn_one.grid(pady=5, padx=5)
 
 root.mainloop()
