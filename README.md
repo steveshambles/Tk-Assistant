@@ -2,7 +2,7 @@
 A Python GUI containing 50 code examples of Tkinter widgets and more that can be copied or executed via the GUI.
 
 
-![Alt text]https://postimg.cc/5XKCxwQ0 "Optional title")
+![Alt text][url=https://postimg.cc/5XKCxwQ0][img]https://i.postimg.cc/5XKCxwQ0/tk-assistant-help-guide-main.png[/img][/url] "Optional title")
 
 Windows only.
 
