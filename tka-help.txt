@@ -1,38 +1,60 @@
-Tk Assistant V2.05 Quick Start help.
-------------------------------------
-Choose an item from one of the drop-down combo boxes. 
+Tk Assistant Quick Start help
+-----------------------------
+About:
+------
+The idea of Tk Assistant is to help Python beginners, or 
+those learning Tk for the first time,
+to get aquainted quickly with the widgets and flatten
+the very steep Tk learning curve.
+ 
+The 50 code examples (squirts) supplied are all self-contained
+so can be experimented with at will.
+
+You will soon find it fairly simple to start joining
+the code examples together to make your own GUI's
+and then edit and improve on the code.
+
+
+Quick Start:
+-------------
+Choose an item from one of the eight drop-down combo boxes. 
 
 When you click the "GET" button to the right of your selection  
 the code will be copied to your clipboard.
  
 You can now paste that code into your Python editor and 
-edit or run the code.
+view, edit or run the code as you see fit.
  
 You will also be given the option to execute the code 
-from within Tk Assistant so that you can see a quick 
-demo what that widget does and how it works.
+from within Tk Assistant so that you can see a small 
+demo of what that widget does.
 
 The toolbar at the top of the GUI has icons that are 
 mostly self explanatory, but If you move the mouse 
 pointer over an icon it will explain what it does 
 via a tooltip message.
  
-As an example, click on the blue folder icon, 
-"View squirts folder".
-This will take you via your systems default file viewer
-to where the "Squirts" used in Tk Assistant are stored. 
+As an example, click on the blue "SQUIRTS" folder icon, 
+The tooltip will reveal this, "View squirts folder".
+Clicking this button will take you, via your systems 
+default file viewer, to where the "Squirts" used in 
+Tk Assistant are stored. 
 Here you can use the squirts like any other .py file 
 if you want to.
 
-You can also send me a message, or visit my Python blogs, 
-which are chock full of hundreds of bits of useful source 
-code and articles for beginners.
+In the "Widget Imgs" drop-down menu you see see a screenshot
+of each of the 50 squirts in action. This can be a useful 
+quick reference if you are still learning what widgets look like.
 
-Let me know if you found Tk Assistant useful, or if you have
-constructive criticisms or ideas.
+The "Tools" menu offers (at the moment) three tools to make
+your Tk life a bit easier, please try them out.
+
+
+For a more detailed help description, 
+click the second icon "on-line help page".
 
 If you find TK Assistant useful and would like me to keep working
 on improving and expanding it, please consider making a small
 donation via the drop-down menu.
 
-Steve Shambles. Oct 2020
+Steve Shambles. Nov 2020
