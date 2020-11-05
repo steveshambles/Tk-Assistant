@@ -1,8 +1,8 @@
 # Tk-Assistant
 A Python GUI containing 50 code examples of Tkinter widgets and more that can be copied or executed via the GUI.
 
-<a href='https://postimg.cc/5XKCxwQ0' target='_blank'><img src='https://i.postimg.cc/5XKCxwQ0/tk-assistant-help-guide-main.png' border='0' alt='tk-assistant-help-guide-main'/></a>
-https://i.postimg.cc/h4zgMxXC/screenshot-2020-11-05-at-04-01-41.png
+![Alt text](https://i.postimg.cc/zG5rJc0M/screenshot-2020-11-05-at-04-03-51.png "Optional title")
+
 
 Windows only.
 
